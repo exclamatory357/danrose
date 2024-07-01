@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-images{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/rest2.jpg");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  div.p-absolute-login{
+    width: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    right: 100px;
+    top: 190px;
+  }
+  div.p-absulute-system-title{
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    left: 100px;
+    top: 190px;
+  }
+  .text-white{
+    color: white;
+  }
+  .p-absulute-system-title .txt1{
+    font-size: 50px;
+  }
+  .p-absulute-system-title .txt2{
+    font-size: 20px;
+  }
+  div.p-absolute-reserve{
+    position: absolute;
+    top: 0;
+    top: 170px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 800px;
+  }
+  div.p-absolute-reserve-result{
+    position: absolute;
+    top: 0;
+    top: 300px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 800px;
+  }
+  .mt{
+    margin-top: 24px;
+  }
+  .mt-4{
+    margin-top:4px;
+  }
+  .mb-4{
+    margin-bottom:4px;
+  }
+  .bb{
+    border-bottom: solid gray 1px;
+  }
+  #dropdown-width{
+      width: 150px;
+  }
+  .btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
